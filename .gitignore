@@ -61,3 +61,4 @@ doc
 patches
 
 */node_modules/*
+*/tmp/*
