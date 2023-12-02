@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV['RAILS_MAX_THREADS'] { 5 } %>
+  host: <%= ENV['DB_HOST'] %>
+  port: <%= ENV['DB_PORT'] %>
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PW'] %>
+  checkout_timeout: <%= ENV['DB_TIMEOUT'] || 10 %>
+
+development:
+  <<: *default
+  database: interface_mobile_dev
+
+test:
+  <<: *default
+  database: interface_mobile_test
+
+production:
+  <<: *default
+  database: interface_mobile_prod
