@@ -12,12 +12,11 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - .:/app:cached
-      - bundle:/user/local/bundle
+      - ./backend:/backend
     depends_on:
       - redis
       - postgres
-    command: rails server -p 3000 -b 0.0.0.0
+    command: ./bin/rails server -p 3000 -b 0.0.0.0
     ports:
       - 3000:3000
 
@@ -46,8 +45,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile.dev
     volumes:
-      - './:/app'
-      - '/app/node_modules'
+      - './frontend:/frontend'
+      - '/frontend/app/node_modules'
     ports:
       - 3001:3000
     stdin_open: true
@@ -56,5 +55,4 @@ services:
     command: npm start
 
 volumes:
-  bundle:
   postgres_data:

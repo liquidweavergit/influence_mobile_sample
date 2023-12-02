@@ -12,9 +12,12 @@ RUN apt-get update -qq && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /usr/share/doc /usr/share/man
 
-COPY . .
+COPY \
+  Gemfile \
+  Gemfile.lock \
+  ./
 
-WORKDIR /backend/app
+WORKDIR ./backend
 
 RUN gem update --system
 RUN bundle install -j $(nproc)
