@@ -1,5 +1,6 @@
-
 # Setup
+
+`cp env.SAMPLE .env`
 
 `docker-compose build`
 
