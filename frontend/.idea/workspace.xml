@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f628878-f9dc-4e27-bee0-58dfd8fc708b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/controllers/users/registrations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/app/controllers/users/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/controllers/users/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/app/models/jwt_denylist.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/models/jwt_denylist.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/initializers/cors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/initializers/devise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/influence_mobile_routes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/influence_mobile_routes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/log/development.log" afterDir="false" />
-    </list>
+    <list default="true" id="3f628878-f9dc-4e27-bee0-58dfd8fc708b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +43,7 @@
       <workItem from="1701472747962" duration="3192000" />
       <workItem from="1701541410457" duration="12000" />
       <workItem from="1701541467589" duration="48028000" />
-      <workItem from="1701735685087" duration="17862000" />
+      <workItem from="1701735685087" duration="19221000" />
     </task>
     <servers />
   </component>

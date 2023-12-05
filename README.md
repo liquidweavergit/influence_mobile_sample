@@ -16,6 +16,13 @@
 
 `docker-compose exec backend bin/startup.sh`
 
+# Accessing Website
+Frontend React:
+localhost:3001
+
+Backend Rails:
+localhost:3000
+
 # Responding to changes
 
 Stop all servers:
