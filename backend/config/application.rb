@@ -16,7 +16,7 @@ module InfluenceMobile
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w(assets tasks))
 
-    # This also configures session_options for user below
+    # This also configures session_options for use below
     config.session_store :cookie_store, key: '_interslice_session'
 
     # Required for all session management (regardless of session_store)

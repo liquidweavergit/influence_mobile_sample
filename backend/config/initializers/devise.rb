@@ -18,6 +18,13 @@ Devise.setup do |config|
 
   config.jwt do |jwt|
     jwt.secret = ENV['JWT_SECRET_KEY']
+    jwt.dispatch_requests = [
+      ['POST', %r{^/login.json$}]
+    ]
+    jwt.revocation_requests = [
+      ['DELETE', %r{^/logout.json$}]
+    ]
+    jwt.expiration_time = 24.hours.to_i
   end
 
   # ==> Controller configuration

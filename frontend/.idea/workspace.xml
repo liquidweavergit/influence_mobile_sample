@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f628878-f9dc-4e27-bee0-58dfd8fc708b" name="Changes" comment="" />
+    <list default="true" id="3f628878-f9dc-4e27-bee0-58dfd8fc708b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/controllers/users/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/controllers/users/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/controllers/users/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/models/jwt_denylist.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/models/jwt_denylist.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/initializers/cors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/initializers/devise.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/influence_mobile_routes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/influence_mobile_routes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/log/development.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/liquidweaver/Documents/CodeSamples/influence_mobile/frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/liquidweaver/Documents/CodeSamples/influence_mobile/frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/liquidweaver/Documents/CodeSamples/influence_mobile/frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/liquidweaver/Documents/CodeSamples/influence_mobile/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +58,8 @@
       <updated>1701472746662</updated>
       <workItem from="1701472747962" duration="3192000" />
       <workItem from="1701541410457" duration="12000" />
-      <workItem from="1701541467589" duration="5865000" />
+      <workItem from="1701541467589" duration="48028000" />
+      <workItem from="1701735685087" duration="17862000" />
     </task>
     <servers />
   </component>

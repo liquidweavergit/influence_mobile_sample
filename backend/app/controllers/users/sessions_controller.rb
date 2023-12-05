@@ -1,13 +1,21 @@
-class Users::SessionsController < Devise::RegistrationsController
+class Users::SessionsController < Devise::SessionsController
   respond_to :json
 
   private
 
   def respond_with(_resource, _opts = {})
-    render json: {
-      message: 'Login successful',
-      user: current_user
-    }, status: :ok
+    puts "#{'>' * 20} resource.persisted?: #{_resource.persisted?} #{'<' * 20}"
+
+    if _resource.persisted?
+      render json: {
+        message: 'Login successful',
+        user: current_user
+      }, status: :ok
+    else
+      render json: {
+        message: 'Login unsuccessful'
+      }, status: :unauthorized
+    end
   end
 
   def respond_to_on_destroy
